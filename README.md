@@ -2,14 +2,22 @@
 
 ## Introduction
 
-Simple app with Simon Game.
+This project is a Simon Game clone built with JavaScript, HTML, and CSS.
+It was created as a practice project to work with event handling, DOM manipulation, and game logic in JavaScript.
 
 ![image](https://github.com/user-attachments/assets/c7ddc5b2-d619-4657-be6e-00257c845184)
 
-## Rules
+## Game Rules
 
-The rules are simple: The game is played with four colour buttons: red, blue, green and yellow. 
-The game will flash a sequence of colors and the player must repeat the sequence by pressing the corresponding colored buttons on the Simon game unit.
+The game is played with four colored buttons: 🟥 Red, 🟦 Blue, 🟩 Green, 🟨 Yellow.
+
+- At the start of each round, the game flashes one color at a time.
+- Each new round adds a new color to the sequence.
+- The player must remember the entire sequence (all previous colors in order) and repeat it by clicking the corresponding buttons.
+- If the player repeats the sequence correctly, the game adds another color to the sequence, making it progressively more challenging.
+- If the player makes a mistake, the game ends.
+
+The goal is to remember and repeat the longest possible sequence.
 
 ## Getting Started
 
